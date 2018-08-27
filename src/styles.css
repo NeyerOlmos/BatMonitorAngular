@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/*
+body{
+    max-width: 100%;
+    background-image: url("./assets/img/batmonitorLOGOCroped.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y:  100px ;
+      background-size: contain;
+    
+    
+}*/
+
+
+div#background-image{
+        content: "";
+        background: url("./assets/img/batmonitorLOGOCroped.png");
+        opacity: 0.2;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1; 
+        background-repeat: no-repeat;  
+        background-size: cover;
+        top: 80px;
+        background-position-x: center;
+   
+   /* background-size: contain;*/
+      
+}

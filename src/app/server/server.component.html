@@ -1,0 +1,42 @@
+
+<div class="server-card card-1">
+  <div class="information-container">
+
+    <img class="server-image" src="/src/assets/img/server-37258_960_720.png" height="80px" alt="server imagen">
+    <div class="input-on-off-toggle">
+      
+
+        <input  type="checkbox"  checked data-toggle="toggle" data-onstyle="success" data-offstyle="danger" >
+     
+      
+    </div>
+    <p class="ip-address"><b>IP: </b>{{Ip}}</p>
+    <p class="hostname"><b>Hostname: </b>{{Hostname}}</p>
+    <p class="operating-system"><b>OS: </b>{{OperatingSystem}}</p>
+  </div>
+
+
+      
+
+
+  <div class="applications-container">
+    <p class="application-tittle"><b>Applications:</b></p>
+  
+    <ul class="applications-list" >
+    <li *ngFor="let App of ApplicationsFromApi" >{{App.Name}}  {{App.Version}}</li>
+    
+  </ul>
+  <ul class="applications-list-medium-details" >
+      <li>Office 2018 </li>
+      <li>SQL 2016</li>
+      <li>IIS</li>
+      <li>TeamMate+</li>
+      <li>TeamMate</li>
+      <li><a href="http://www.google.com">more...</a></li>
+    </ul>
+
+  </div>
+  
+</div>
+
+

@@ -1,0 +1,4 @@
+<div class="dashboard">
+    <app-server *ngFor="let server of serversFromApi" [Id]="server.Id" [Hostname]="server.Hostname" [Ip]="server.Ip" [OperatingSystem]="server.OperatingSystem"></app-server>
+    
+</div>

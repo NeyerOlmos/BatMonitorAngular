@@ -1,0 +1,103 @@
+#my-navbar-main{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border: solid 0.5px black;
+    box-shadow: 0px 2px 10px 0px #888888;
+    background-color: white;
+}
+#my-navbar-logo-info-arch{
+    position: relative;
+    left: 10px;
+    max-width: 100%;
+}
+
+#my-navbar-logo-batmonitor{       
+   top: 10px;
+    position: relative;
+    right: 80px;
+    display: flex;
+}
+#img-logo{
+    position: relative;
+    bottom: 8px;
+}
+
+#my-navbar-home-button{
+    /*text-transform: uppercase;
+    font-size: 24px;
+    padding: 0px;
+    height: 58px;    
+    width: 70px;
+    text-decoration:none;
+    color: black;
+    background-color: #2196f3;
+    position: relative;
+    right: 1px;
+    border-left :solid 1px  black;*/
+}
+@media only screen and (min-width:846px) and (max-width:940px){
+    #my-navbar-main{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+        border: solid 1px black;
+        box-shadow: 0px 2px 10px 0px #888888;
+    }
+
+    #my-navbar-logo-info-arch{
+        position: relative;
+        left: 0px;
+        max-width: 100%;
+    }
+    #my-navbar-logo-batmonitor{
+        position: relative;
+        right: 60px;
+        display:flex;
+        flex-flow: row;
+    }
+}
+@media only screen and (min-width:250px) and (max-width:845px){
+    #my-navbar-main{
+       background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80px;
+        flex-flow: column;
+    }
+    #my-navbar-home-button{
+        display: none;
+      
+    }
+    #my-navbar-logo-batmonitor{
+       
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        height: 100px;
+        top: 0px;
+        left: 0px;
+        max-width: 100%; 
+        justify-content: center;
+    }
+    #img-logo{
+        position: relative;
+        bottom: 25px;
+        left: 40px;
+    }
+    #img-logo-text{
+        position:relative;
+        top:45px;
+    }
+    #my-navbar-logo-info-arch{
+        display: none;
+
+    }
+    
+    
+
+}

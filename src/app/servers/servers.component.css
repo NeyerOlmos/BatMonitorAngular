@@ -1,0 +1,44 @@
+@import 'src/assets/css/bootstrap-toggle.min.css';
+.dashboard{
+    
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+@media only screen and (min-width:768px) and (max-width:940px){
+    
+    .dashboard{
+           
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding: 15px;
+        }
+    }
+@media only screen and (min-width:350px) and (max-width:690px){
+ 
+    .dashboard{
+       
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 15px;
+    }
+
+    }
+    @media only screen and (min-width:691px) and (max-width:767px){
+        
+        .dashboard{
+         
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding: 15px;
+        }
+    
+        }
